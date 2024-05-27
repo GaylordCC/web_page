@@ -5,6 +5,8 @@ import TitleComponent from './components/TitleComponent';
 import ClickEvenHandler from './components/ClickEventHandler';
 import UserLogin from './components/UserLogin';
 import EmployeeList from './components/EmployeeList';
+import RegularStyleSheet from './components/RegularStyleSheet';
+import Inline from './components/Inline';
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       {/* <TitleComponent /> */}
       {/* <ClickEvenHandler /> */}
       {/* <UserLogin /> */}
-      <EmployeeList />
+      {/* <EmployeeList /> */}
+      {/* <RegularStyleSheet primary={false}/> */}
+      <Inline />
     </div>
   );
 }
