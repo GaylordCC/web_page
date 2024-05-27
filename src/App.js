@@ -10,6 +10,7 @@ import Inline from './components/Inline';
 import './appStyles.css';
 import modulesStyles from './myAppStyles.module.css';
 import FormInput from './components/FormInput';
+import Count from './components/Counter';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <Inline /> */}
       {/* <h2 className='error'>Error !!!</h2> */}
       {/* <h2 className={modulesStyles.sucess}> Sucess !!!</h2> */}
-      <FormInput />
+      {/* <FormInput /> */}
+      <Count />
     </div>
   );
 }
