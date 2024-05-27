@@ -9,6 +9,7 @@ import RegularStyleSheet from './components/RegularStyleSheet';
 import Inline from './components/Inline';
 import './appStyles.css';
 import modulesStyles from './myAppStyles.module.css';
+import FormInput from './components/FormInput';
 
 function App() {
   return (
@@ -26,8 +27,9 @@ function App() {
       {/* <EmployeeList /> */}
       {/* <RegularStyleSheet primary={false}/> */}
       {/* <Inline /> */}
-      <h2 className='error'>Error !!!</h2>
-      <h2 className={modulesStyles.sucess}> Sucess !!!</h2>
+      {/* <h2 className='error'>Error !!!</h2> */}
+      {/* <h2 className={modulesStyles.sucess}> Sucess !!!</h2> */}
+      <FormInput />
     </div>
   );
 }
