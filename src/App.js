@@ -11,6 +11,7 @@ import './appStyles.css';
 import modulesStyles from './myAppStyles.module.css';
 import FormInput from './components/FormInput';
 import Count from './components/Counter';
+import Counter2 from './components/Counter2';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <h2 className='error'>Error !!!</h2> */}
       {/* <h2 className={modulesStyles.sucess}> Sucess !!!</h2> */}
       {/* <FormInput /> */}
-      <Count />
+      {/* <Count /> */}
+      <Counter2 />
     </div>
   );
 }
