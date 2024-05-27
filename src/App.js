@@ -4,6 +4,7 @@ import ProfilePics from './images/profilepics.jpg';
 import TitleComponent from './components/TitleComponent';
 import ClickEvenHandler from './components/ClickEventHandler';
 import UserLogin from './components/UserLogin';
+import EmployeeList from './components/EmployeeList';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       </DemoComponent>  */}
       {/* <TitleComponent /> */}
       {/* <ClickEvenHandler /> */}
-      <UserLogin />
+      {/* <UserLogin /> */}
+      <EmployeeList />
     </div>
   );
 }
