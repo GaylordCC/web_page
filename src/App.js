@@ -7,6 +7,8 @@ import UserLogin from './components/UserLogin';
 import EmployeeList from './components/EmployeeList';
 import RegularStyleSheet from './components/RegularStyleSheet';
 import Inline from './components/Inline';
+import './appStyles.css';
+import modulesStyles from './myAppStyles.module.css';
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
       {/* <UserLogin /> */}
       {/* <EmployeeList /> */}
       {/* <RegularStyleSheet primary={false}/> */}
-      <Inline />
+      {/* <Inline /> */}
+      <h2 className='error'>Error !!!</h2>
+      <h2 className={modulesStyles.sucess}> Sucess !!!</h2>
     </div>
   );
 }
