@@ -18,6 +18,8 @@ import ExplainEffect from './components/UseEffectPractice/ExplainEffect';
 import CleanEffect from './components/UseEffectPractice/CleanEffect';
 import MouseContainer from './components/UseEffectPractice/MouseContainer';
 
+import FechMultiplesPosts from './components/dataFetching/FechMultiplesPosts';
+
 function App() {
   return (
     <div className="App">
@@ -43,7 +45,8 @@ function App() {
       {/* <HookStateArray /> */}
       {/* <ExplainEffect /> */}
       {/* <CleanEffect /> */}
-      <MouseContainer />
+      {/* <MouseContainer /> */}
+      <FechMultiplesPosts />
     </div>
   );
 }
