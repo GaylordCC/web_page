@@ -13,6 +13,12 @@ export default function CleanEffect() {
         useEffect(()=>{
             console.log('useEffect is called')
             window.addEventListener('mousemove', LogMousePosition)
+
+            return () => {
+                window.removeEventListener('mousemove', LogMousePosition);
+                console.log('component is unmounted, and the code is clean')
+            }
+            
         }, [])
     return(
         <div>

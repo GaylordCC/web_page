@@ -16,6 +16,7 @@ import Counter3 from './components/UseStatePractice/Counter3';
 import HookStateArray from './components/UseStatePractice/HookStateArray';
 import ExplainEffect from './components/UseEffectPractice/ExplainEffect';
 import CleanEffect from './components/UseEffectPractice/CleanEffect';
+import MouseContainer from './components/UseEffectPractice/MouseContainer';
 
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
       {/* <Counter3 /> */}
       {/* <HookStateArray /> */}
       {/* <ExplainEffect /> */}
-      <CleanEffect />
+      {/* <CleanEffect /> */}
+      <MouseContainer />
     </div>
   );
 }
