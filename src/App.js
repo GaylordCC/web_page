@@ -13,6 +13,7 @@ import FormInput from './components/FormInput';
 import Count from './components/Counter';
 import Counter2 from './components/Counter2';
 import Counter3 from './components/Counter3';
+import HookStateArray from './components/HookStateArray';
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
       {/* <FormInput /> */}
       {/* <Count /> */}
       {/* <Counter2 /> */}
-      <Counter3 />
+      {/* <Counter3 /> */}
+      <HookStateArray />
     </div>
   );
 }
