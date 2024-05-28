@@ -14,6 +14,7 @@ import Count from './components/UseStatePractice/Counter';
 import Counter2 from './components/UseStatePractice/Counter2';
 import Counter3 from './components/UseStatePractice/Counter3';
 import HookStateArray from './components/UseStatePractice/HookStateArray';
+import ExplainEffect from './components/UseEffectPractice/ExplainEffect';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <Count /> */}
       {/* <Counter2 /> */}
       {/* <Counter3 /> */}
-      <HookStateArray />
+      {/* <HookStateArray /> */}
+      <ExplainEffect />
     </div>
   );
 }
