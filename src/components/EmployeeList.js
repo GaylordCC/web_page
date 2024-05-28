@@ -37,7 +37,7 @@ export default function EmployeeList() {
             {
                 employees.map((employee)=>
                     <div key={employee.id}>
-                        <Employee
+                        <Employee 
                             name={employee.name}
                             gender={employee.gender}
                             country={employee.country}

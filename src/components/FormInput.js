@@ -3,7 +3,6 @@ import React, {useState} from "react";
 export default function FormInput() {
         const [name, setName] = useState('')
         const [adress, setAdress] = useState('')
-        console.log(name)
     return(
         <form>
             <div> 

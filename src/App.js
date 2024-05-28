@@ -10,10 +10,10 @@ import Inline from './components/Inline';
 import './appStyles.css';
 import modulesStyles from './myAppStyles.module.css';
 import FormInput from './components/FormInput';
-import Count from './components/Counter';
-import Counter2 from './components/Counter2';
-import Counter3 from './components/Counter3';
-import HookStateArray from './components/HookStateArray';
+import Count from './components/UseStatePractice/Counter';
+import Counter2 from './components/UseStatePractice/Counter2';
+import Counter3 from './components/UseStatePractice/Counter3';
+import HookStateArray from './components/UseStatePractice/HookStateArray';
 
 function App() {
   return (
